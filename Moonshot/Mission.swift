@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+// This is the struct within a struct to read the JSON
 struct Mission: Codable, Identifiable {
     struct CrewRole: Codable {
         let name: String
